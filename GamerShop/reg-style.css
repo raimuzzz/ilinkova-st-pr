@@ -1,0 +1,14 @@
+body {
+    background: radial-gradient(circle, #0f0f0f, #000);
+    font-family: Arial, sans-serif;
+  }
+  
+  .card {
+    border: 1px solid #00e7ff;
+    border-radius: 10px;
+  }
+  
+  .btn-outline-info.active {
+    background-color: #00e7ff;
+    color: #000;
+  }

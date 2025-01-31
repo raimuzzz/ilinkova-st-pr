@@ -1,0 +1,99 @@
+/* body {
+  background: radial-gradient(circle, #0f0f0f, #000);
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  border: 1px solid #00e7ff;
+  border-radius: 10px;
+}
+
+.btn-outline-info.active {
+  background-color: #00e7ff;
+  color: #000;
+}
+
+
+
+.navbar {
+  border-bottom: 2px solid #00e7ff;
+}
+
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 231, 255, 0.5);
+}
+
+.price {
+	color: #00e5ff;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-shadow: 0 0 10px rgba(0,299,255,0.8);
+}
+
+.card-img-top {
+  height: 150px; 
+  width: 100%; 
+  object-fit: cover; 
+}
+
+footer {
+  color: #00e7ff;
+} */
+
+
+
+
+
+
+
+body {
+  background: radial-gradient(circle, #0f0f0f, #000);
+  font-family: Arial, sans-serif;
+}
+
+.btn-outline-info.active {
+  background-color: #00e7ff;
+  color: #000;
+}
+
+
+
+.navbar {
+  border-bottom: 2px solid #00e7ff;
+}
+
+.card {
+  height: 100%; /* Карточка заполняет доступное пространство */
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 231, 255, 0.5);
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Равномерное распределение элементов */
+}
+
+.price {
+  color: #00e5ff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(0, 299, 255, 0.8);
+}
+
+footer {
+  color: #00e7ff;
+}
+
