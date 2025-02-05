@@ -30,7 +30,7 @@ $products = $query->fetchAll(PDO::FETCH_ASSOC);
               echo '<li class="nav-item"><a class="btn btn-outline-info" href="cart.php">Корзина</a></li>';
               echo '<li class="nav-item"><a class="btn btn-outline-info" href="logout.php">Выйти</a></li>';
           } else {
-              echo '<li class="nav-item"><a class="btn btn-outline-info" href="login.php">Войти</a></li>';
+              echo '<li class="nav-item"><a class="btn btn-outline-info" href="register.html">Войти</a></li>';
           }
           ?>
         </ul>
@@ -49,7 +49,7 @@ $products = $query->fetchAll(PDO::FETCH_ASSOC);
   foreach ($categories as $category) {
       echo '<section id="' . strtolower($category) . '-catalog" class="py-5">';
       echo '<h2 class="text-info text-center mb-4">Каталог ' . $category . '</h2>';
-      echo '<div class="container"><div class="row g-4">';
+      //echo '<div class="container"><div class="row g-4">';
 
       foreach ($products as $product) {
           if ($product['category'] == $category) {
